@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Форма ввода объявления</title>
+    <meta charset = "utf-8">
+    <link rel = "stylesheet" href = "ourstyles.css">
+  </head>
+  <body>
+    <form action = "advertisement2.php" method = "post">
+      <h2>Форма ввода объявления</h2>
+      <p><strong>Введите ваше имя:</strong><br/>
+      <input type = "text" name = "name2" size = "50"></p>
+
+      <p><strong>Введите ваш телефон:</strong><br/>
+      <input type = "text" name = "phone2" size = "50"></p>
+    
+      <p><strong>Введите адрес электронной почты:</strong><br/>
+      <input type = "text" name = "email2" size = "50"></p>
+      
+      <p><strong>Введите ваше объявление:</strong></p>
+      <textarea required rows = "5" cols = "50" name = "text2"></textarea>
+      
+      <p><input type = "submit" value = "Разместить объявление"></p>
+      
+      <fieldset>
+        <p id = "helptext">Максимальная длина имени - 50 символов.</p>
+        
+        <p id = "helptext">Телефон вводится в формате: символ "+" и цифры телефона без пробелов. Максимальная длина номера телефона, согласно стандарту E.164, составляет 15 цифр. То есть, например, телефон +749512345678910 корректный.</p>
+      
+        <p id = "helptext">Адрес электронной почты должен содержать символ "@". Максимальная длина e-mail - 50 символов.</p>
+        
+        <p id = "helptext">Максимальная длина объявления - 200 символов.</p>
+      
+        <p id = "helptext">Все поля обязательны для заполнения. После нажатия на кнопку "Разместить объявление" на ваш e-mail будет отправлен код подтверждения, который необходимо будет ввести в соответствующее поле. Только после этого объявление будет опубликовано.</p>
+      </fieldset>
+
+    </form>
+  </body>
+</html>

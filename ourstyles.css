@@ -1,0 +1,28 @@
+fieldset
+{
+  width: 40%;
+  border: 0px;
+}
+#helptext
+{
+  font-size: 85%;
+  color: #444444;
+}
+#advertname
+{
+  font-size: 120%;
+  color: #000000;
+  text-align: left
+}
+#advertemailphone
+{
+  font-size: 80%;
+  color: #444444;
+  text-align: right
+}
+#adverttext
+{
+  font-size: 100%;
+  color: #222222;
+  text-align: left
+}
